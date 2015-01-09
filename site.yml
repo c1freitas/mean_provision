@@ -1,0 +1,11 @@
+---
+- hosts: mare
+  vars_files:
+    - vars/all.yml
+
+  roles:
+    - common
+    - nodejs
+    - mongodb
+    - sails
+    - nginx

@@ -1,0 +1,5 @@
+---
+- name: Sails | Install Sails
+  sudo: yes
+  npm: name=sails global=yes
+  tags: sails

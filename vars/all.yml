@@ -1,0 +1,5 @@
+---
+src_root: /data
+server_name:SERVER_NAME.com
+node_port: 1337
+src_ssl_path: /data/ssl_crt
